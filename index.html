@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GeoniX</title>
+</head>
+<body class="body">
+    <header>
+        <h3>BRILLSTACK TECHNOLOGIES</h3>     
+    </header>
+    <nav>
+        <div class="time_nav">
+              <input type="date" id="date">
+              <h4>Geonix Field Density Test</h4>
+              <input type="time" id="date">
+        </div>
+        <div class="main_nav">
+            <label for="project">Project:</label>
+            <input type="text" id="project">
+            <label for="chainage">Chainage:</label>
+            <input type="text" id="chainage" required>
+            <label for="mdd">Maximum dry density:</label>
+            <input type="number" id="mdd" required>
+            <label for="omc">Optimum moisture content:</label>
+            <input type="number" id="omc" required>
+            <label for="sic">Sand in cone:</label>
+            <input type="number" id="sic" required>
+            <label for="sd">Sand density:</label>
+            <input type="number" id="sd" required>
+           
+        </div>      
+    </nav>
+    <div class="article">
+        <div class="aside">
+            <div class="volume">
+               <label for="initial">Initial weight of sand:</label><input type="number" id="initial" required>
+               <label for="final">Final weight of sand:</label><input type="number" id="final">
+               <label for="mc">Moisture content:</label>
+               <input type="number" id="mc" required>
+                <label for="wet">Weight of wet soil:</label><input type="number" id="wetsoil" required>
+            </div>
+            <div class="density">
+               
+            </div>
+                 <!-- <label for="picture">Pictures:</label><input type="file" id="image" accept="immage/*" > -->
+                
+            </div>
+        </div>
+        <div class="result">
+            <div class="resulta">
+                  <input id="fdry1" placeholder="Density of dry soil" readonly><span> <p id="fdry">output</p></span>
+                  <input id="mdry1" placeholder="Degree of compaction" readonly><span><p id="mdry">output</p></span>
+            </div>
+               
+             <div class="submit">
+                <button onclick="fieldtest()">Submit</button>
+                <button onclick="printwork()">Print</button>
+             </div>         
+                        
+            
+        </div>  
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h6>brillstack technologies &#169 2026.phone:08111145892</h6>
+        </div>
+   
+    </footer>
+  <SCript src="index.js"></SCript>  
+</body>
+</html>

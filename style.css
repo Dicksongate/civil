@@ -1,0 +1,218 @@
+
+/* @media Print{
+    body{-webkit-print-color-adjust: exact
+
+    }
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-image: url("/IMG-20260331-WA0017.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;        
+}
+
+header{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    height: 12vh;       
+    background: cyan;
+    width: 100%;
+}
+header h3{
+    color: rgb(113, 113, 243);
+    font-size: 14px;
+    font-family: sans-serif;
+    
+  
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em;
+    padding: 0.5rem 0.5rem;
+}
+.time_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: rgb(204, 70, 3);
+    height: 20px;
+    margin: 2rem 2rem;
+}
+nav h4{
+    color: white;
+}
+.main_nav{
+    display: flex;
+    margin: 1rem 1rem;
+    padding: .5rem .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(204, 70, 3);
+    font-family: sans-serif;
+}
+
+.main_nav input{
+    display: flex;
+    width: 60%;
+    height: 14px;
+    margin: .5rem .5rem;
+    padding: .5rem .5rem;
+    font-size: 8px;
+    font-weight: 500;
+    align-items: center;
+    justify-items: center;  
+    
+}
+.article{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+ 
+}
+.aside{
+    display: flex;    
+    align-items: center;
+    justify-items: center;
+    margin: .05rem .05rem;
+    padding: .5rem .5rem; 
+    color: white;
+    background-color: rgb(3, 121, 13);
+    font-weight: bold; 
+    font-size: 24px; 
+    font-family: sans-serif;
+    height: 6vh;
+}
+
+.aside .volume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .034rem .034rem;
+    padding: 1rem 1rem;
+ 
+   
+}
+.aside .volume label{
+    margin: 2rem auto;
+    padding: 1rem 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    width: 10vw;
+}
+.aside .volume input{
+    align-items: center;
+    justify-items: center;
+    font-weight: 500;   
+    width: 20%;
+}
+.aside label{
+    margin: .5rem .5rem;
+    font-size: 8px;
+    font-weight: 500;
+}
+.aside input{
+    align-items: center;
+    justify-items: center;     
+    width: 50%;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    
+}
+.resulta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(3, 121, 13);
+    height: 2vh;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+aside .result .resulta input{
+    display: flex;
+    font-size: 50px;
+    
+}
+.button-result{
+    display: flex;
+    
+}
+.result #fdry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem .5rem;   
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.result #mdry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem .5rem;   
+    font-size: 12px;
+    font-weight: 500;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(85, 50, 126);    
+    width: 50px;
+    height: 20px;
+    margin: .5rem .5rem;
+    padding: auto;
+    cursor: pointer;    
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(3, 121, 13);
+    width: 20%;
+    margin: 2rem;
+    padding: 1rem;
+    height: .5vh;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 15vh;
+    background-color: rgb(36, 36, 43);
+   
+}
+
+/* P{
+    color: white;
+} */
