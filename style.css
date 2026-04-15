@@ -10,6 +10,13 @@
   html {
     font-size: 8px;
   }
+  nav{
+    display: flex;
+    flex-direction: column;
+    margin: .45em .45em;
+    padding: 0.35rem 0.35rem;
+    width: 100;
+}
 }
 
 body{
