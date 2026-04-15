@@ -101,6 +101,17 @@
     font-family: sans-serif;
     width: 100%;
 }
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(3, 121, 13);
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    /* height: .5vh; */
+
+}
 
 }
 
@@ -308,7 +319,7 @@ button{
     width: 20%;
     margin: 2rem;
     padding: 1rem;
-    height: .5vh;
+    /* height: .5vh; */
 
 }
 .footer{
