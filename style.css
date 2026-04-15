@@ -172,7 +172,7 @@ nav h4{
 .aside{
     display: flex;    
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     margin: 1rem 1rem;
     padding: .5rem .5rem; 
     color: white;
@@ -201,7 +201,7 @@ nav h4{
 }
 .aside .volume input{
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     font-weight: 500;   
     width: 20%;
 }
@@ -212,8 +212,8 @@ nav h4{
 }
 .aside input{
     align-items: center;
-    justify-items: center;     
-    width: 50%;
+    justify-content: center;     
+    width: 70%;
 }
 .result{
     display: flex;
