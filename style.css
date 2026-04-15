@@ -62,7 +62,7 @@
 
 }
 
-.aside{
+.aside .volume{
   display: flex;
     margin: .45rem .45rem;
     padding: .35rem .35rem;   
