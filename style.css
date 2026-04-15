@@ -4,7 +4,7 @@
 
     }
 } */
-
+/* tablet */
 
 @media (max-width: 768px) {
   html {
@@ -16,6 +16,25 @@
     margin: .45em .45em;
     padding: 0.35rem 0.35rem;
     width: 100;
+}
+}
+
+/* small device */
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+  nav{
+    /* display: flex;
+    flex-direction: column;
+    margin: .45em .45em;
+    padding: 0.35rem 0.35rem;
+    width: 100; */ 
+ 
+    flex-direction: column;
+    align-items: flex-start;
+    margin: .45em .45em;
+
 }
 }
 
