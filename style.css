@@ -46,17 +46,21 @@
     width: 100%;
     height: 10px;
     margin: .45rem .45rem;
+    
 }
 .main_nav{
     display: flex;
     margin: .45rem .45rem;
     padding: .35rem .35rem;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     font-size: 8px;
     color: white;    
     background-color: rgb(204, 70, 3);
     font-family: sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
 }
 
