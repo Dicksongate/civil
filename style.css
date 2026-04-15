@@ -255,7 +255,7 @@ nav h4{
     margin: 1rem;
     padding: 1rem;
     background-color: rgb(3, 121, 13);
-    height: 2vh;
+    /* height: 2vh; */
     color: white;
     font-size: 12px;
     font-weight: 500;
