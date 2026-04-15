@@ -158,31 +158,31 @@ nav h4{
     display: flex;    
     align-items: center;
     justify-items: center;
-    margin: .05rem .05rem;
+    margin: 1rem 1rem;
     padding: .5rem .5rem; 
     color: white;
     background-color: rgb(3, 121, 13);
     font-weight: bold; 
-    font-size: 24px; 
+    font-size: 12px; 
     font-family: sans-serif;
-    height: 6vh;
+    /* height: 6vh; */
 }
 
 .aside .volume{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: .034rem .034rem;
+    margin: 1rem 1rem;
     padding: 1rem 1rem;
- 
+    color: white;
    
 }
 .aside .volume label{
-    margin: 2rem auto;
-    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    padding: .35rem .35rem;
     font-size: 12px;
     font-weight: 500;
-    width: 10vw;
+    width: 100%;
 }
 .aside .volume input{
     align-items: center;
