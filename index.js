@@ -39,7 +39,7 @@ function abvolume(c) {
     drydensity = result4 /mainwater 
     dryupdateLocalstorage() 
     let storedDry = JSON.parse(localStorage.getItem('drydensity'))
-    document.getElementById('fdry').innerHTML = Math.round(storedDry)     
+    document.getElementById('fdry').innerHTML = Math.round(storedDry * 100) / 100   
     return compaction(drydensity)
 }
 
