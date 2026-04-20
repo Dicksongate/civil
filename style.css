@@ -186,23 +186,24 @@ nav h4{
 .aside{
     display: flex;    
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin: 1rem 1rem;
-    padding: .5rem .5rem; 
-    color: white;
     background-color: rgb(3, 121, 13);
+    color: white;  
+    /* margin: 1rem 1rem;
+    padding: .5rem .5rem;        
     font-weight: bold; 
     font-size: 12px; 
-    font-family: sans-serif;
-    /* height: 6vh; */
+    font-family: sans-serif; */
+   
 }
 
 .aside .volume{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
+    margin: 0 0;
+    padding: .52rem .52rem;
     color: white;
    
 }
@@ -210,7 +211,7 @@ nav h4{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 1rem;
+    margin: .45rem .45rem;
     padding: .35rem .35rem;
     font-size: 12px;
     font-weight: 500;
@@ -219,9 +220,9 @@ nav h4{
 .aside .volume input{
     display: flex;
     width: 60%;
-    height: 14px;
-    margin: .5rem .5rem;
-    padding: .5rem .5rem;
+    /* height: 14px; */
+    margin: .45rem .45rem;
+    padding: .45rem .45rem;
     font-size: 8px;
     font-weight: 500;
     align-items: center;
