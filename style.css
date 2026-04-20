@@ -103,6 +103,15 @@
 
 }
 
+header{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    height: 12vh;       
+    background: cyan;
+    width: 100%;
+}
+
 }
 
 body{
