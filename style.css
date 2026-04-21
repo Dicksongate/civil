@@ -110,8 +110,8 @@ header{
     margin: 0 0;
     height: 10vh;       
     background: cyan;
-    /* width: 100%; */
-    scroll-behavior: sticky;
+    width: 4vw;
+    
 }
 
 #note{
