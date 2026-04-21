@@ -143,7 +143,7 @@ header{
     justify-content: center;
     height: 12vh;       
     background: cyan;
-    width: 100%;
+    /* width: 100%; */
 }
 header h3{
     color: rgb(113, 113, 243);
