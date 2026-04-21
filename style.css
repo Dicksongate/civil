@@ -113,6 +113,18 @@ header{
     width: 100%;
 }
 
+#note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.252rem .252rem;
+    padding: .45rem .45rem;
+    font-size: 10px;
+    background-color: blue;
+    /* z-index: 50; */
+    
+}
+
 }
 
 body{
@@ -333,5 +345,16 @@ button{
     height: 15vh;
     background-color: rgb(36, 36, 43);
    
+}
+
+#note{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    justify-content: center;
+    margin: 0.352rem .352rem;
+    padding: 1rem 1rem;
+    font-size: 12px;
+    
 }
 
