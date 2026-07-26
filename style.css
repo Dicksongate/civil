@@ -241,7 +241,7 @@ p {
 h5 {
     display: flex;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     font-weight: 500;
     background: linear-gradient(135deg, #001236, #7f96be);
@@ -250,7 +250,7 @@ h5 {
     align-items: center;
     justify-content: center;
     margin: 1rem 1rem;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1.5rem;
 
 }
 
