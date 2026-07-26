@@ -235,8 +235,28 @@ p {
     width: 50vw;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+
+}
+
+h5 {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    background: linear-gradient(135deg, #001236, #7f96be);
+    height: 5vh;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h5 input {
+    height: 30px;
+    width: 270px;
+    margin: 0.5rem 0.5rem;
+
 }
 
 p input {
