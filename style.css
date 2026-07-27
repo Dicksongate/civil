@@ -246,7 +246,7 @@ h5 {
     font-weight: 500;
     background: linear-gradient(135deg, #001236, #7f96be);
     height: 5vh;
-    width: 350px;
+    width: 380px;
     align-items: center;
     justify-content: center;
     margin: 1rem 1rem;
@@ -255,9 +255,16 @@ h5 {
 }
 
 h5 input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
     height: 30px;
     width: 270px;
     margin: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
 
 }
 
