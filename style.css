@@ -156,7 +156,7 @@ nav .time_nav p {
 
 .main_nav input {
     display: flex;
-    width: 70%;
+    width: 100vw;
     height: 2rem;
     margin: .5rem .5rem;
     padding: .5rem .5rem;
