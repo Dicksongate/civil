@@ -71,7 +71,7 @@ nav {
 }
 
 nav .main_nav input {
-    width: 20%;
+    width: 70%;
     display: flex;
     align-items: center;
     /* flex: 1; */
@@ -156,7 +156,7 @@ nav .time_nav p {
 
 .main_nav input {
     display: flex;
-    width: 100vw;
+    width: 70%;
     height: 2rem;
     margin: .5rem .5rem;
     padding: .5rem .5rem;
